@@ -19,5 +19,6 @@ Structure (to be updated):
 │   ├── Dataset2Vec.py
 │   ├── record_dataset_construct.m
 │   └── README.md
+```
 
 The source data and code are still under refinement and will be fully organized and uploaded to the GitHub repository upon completion of the work.
