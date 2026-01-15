@@ -1,11 +1,12 @@
 # From inconsistency to decision: explainable operation and maintenance of battery energy storage systems
-Article: From inconsistency to decision: explainable operation and maintenance of battery energy storage systems
+## Article: From inconsistency to decision: explainable operation and maintenance of battery energy storage systems
 
-Arxiv link: https://arxiv.org/abs/2601.03007
+## Arxiv link: https://arxiv.org/abs/2601.03007
 
-Main content:  An inconsistency-driven O&M paradigm for large-scale BESSs that systematically transforms routine monitoring data into explainable and decision-oriented guidance via large language model–based semantic reasoning.
+## Main content: 
+An inconsistency-driven O&M paradigm for large-scale BESSs that systematically transforms routine monitoring data into explainable and decision-oriented guidance via large language model–based semantic reasoning.
 
-Structure (to be updated):
+## Structure (to be updated):
 ```text
 .
 ├── Dataset/
@@ -20,7 +21,7 @@ Structure (to be updated):
 │   ├── record_dataset_construct.m
 │   └── README.md
 ```
-
+## Description
 In Dataset/, the Inconsistency_dataset/ contains the record dataset of inconsistency evaluation; Inconsistency_dataset_chroma/ contains the vectorization of the record dataset.
 
 In Dataset/, the inconsistency_knowledgeset/review_paper/ contains all the relevant knowledge extracted and curated from review papers; inconsistency_knowledgeset_chroma/ contains the vectorization of the knowledge pieces.
