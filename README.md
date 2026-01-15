@@ -21,13 +21,40 @@ An inconsistency-driven O&M paradigm for large-scale BESSs that systematically t
 │   ├── record_dataset_construct.m
 │   └── README.md
 ```
-## Description
-In Dataset/, the Inconsistency_dataset/ contains the record dataset of inconsistency evaluation; Inconsistency_dataset_chroma/ contains the vectorization of the record dataset.
+## Project Structure Description
 
-In Dataset/, the inconsistency_knowledgeset/review_paper/ contains all the relevant knowledge extracted and curated from review papers; inconsistency_knowledgeset_chroma/ contains the vectorization of the knowledge pieces.
+### Dataset/
 
-In Script/, Dataset2Vec.py provides source codes to finish vectorization, which requires local installation of bge embedding model. 
+- **Inconsistency_dataset/**  
+  Contains the *record dataset* used for inconsistency evaluation.
 
-In Script/, the record_dataset_construct.m is used to construct the record dataset from the original data and the inconsistency evaluation results by developed algorithms (which will be uploaded in the future).
+- **Inconsistency_dataset_chroma/**  
+  Contains the vectorized representations of the record dataset, generated for semantic retrieval and downstream analysis.
 
-The source data and code are still under refinement and will be fully organized and uploaded to the GitHub repository upon completion of the work.
+- **inconsistency_knowledgeset/review_paper/**  
+  Contains curated knowledge pieces extracted from relevant review papers, serving as the knowledge base for inconsistency analysis.
+
+- **inconsistency_knowledgeset_chroma/**  
+  Contains the vectorized representations of the extracted knowledge pieces.
+
+### Script/
+
+- **Dataset2Vec.py**  
+  Provides the source code for dataset and knowledge base vectorization.  
+  This script requires a local installation of the **BGE embedding model**.
+
+- **record_dataset_construct.m**  
+  Used to construct the record dataset by integrating the original source data with inconsistency evaluation results produced by the developed algorithms (to be released in future updates).
+
+---
+
+### Notes
+
+The source data and algorithm implementations are still under refinement.  
+All materials will be fully organized and made publicly available in the GitHub repository upon completion of the work.
+
+
+
+
+
+
